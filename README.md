@@ -13,8 +13,16 @@ make file config /usr/share/xdg-desktop-portal/portals.conf or ~/.config/xdg-des
 default=gtk
 org.freedesktop.impl.portal.FileChooser=gtk4
 ```
-
 restart pc, done
+
+
+setting in firefox
+```diff
+search about:config
+search widget.use-xdg-desktop-portal.file-picker
+set value widget.use-xdg-desktop-portal.file-picker to 1
+```
+
 
 darkmode (optional)
 ```diff
