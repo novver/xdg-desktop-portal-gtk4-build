@@ -18,7 +18,7 @@ restart pc, done
 
 setting in firefox
 ```diff
-search about:config
+open config by search about:config
 search widget.use-xdg-desktop-portal.file-picker
 set value widget.use-xdg-desktop-portal.file-picker to 1
 ```
