@@ -15,3 +15,8 @@ org.freedesktop.impl.portal.FileChooser=gtk4
 ```
 
 restart pc, done
+
+darkmode (optional)
+```diff
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+```
